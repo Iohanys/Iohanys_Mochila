@@ -12,7 +12,45 @@ form.addEventListener("submit", (evento)=>{
 })
 
 function criaElemento(nome,quantidade) {
-    
+
+   const novoItem = document.createElemente('li')
+   novoItem.classList.add("item")
+
+   const numeroItem = document.createElement('strong')
+   numeroItem.innerHTML = quantidade
+
+   novoItem.appendChild(numeroItem)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 }
 
 
