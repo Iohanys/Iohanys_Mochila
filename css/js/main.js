@@ -22,47 +22,10 @@ function criaElemento(nome,quantidade) {
    novoItem.appendChild(numeroItem)
 
 
+   const ItemAtual = {
+     "nome": nome,
+     "quantidade": quantidade
+   }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+   localStorage.seItem("item", JSON.stringfy(ItemAtual))
+  }
